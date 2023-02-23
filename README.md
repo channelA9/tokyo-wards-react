@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
+<img src='gifs\static.png' title='Static Image' width='' alt='Static Image'>
 <img src='gifs\proj-1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ScreenToGif  
