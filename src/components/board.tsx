@@ -1,0 +1,156 @@
+import React from "react";
+import Card from "./card";
+
+const Board = () => {
+    return (
+        <div>
+            <ul className="flex flex-wrap place-content-center text-black">
+                <Card 
+                    ward='Chiyoda'
+                    japanese_name='	千代田区'
+                    population={66680}
+                    aref='https://visit-chiyoda.tokyo/en/'
+                />
+                <Card 
+                    ward='Chūō'
+                    japanese_name='中央区'
+                    population={169179}
+                    aref='https://www.centraltokyo-tourism.com/en/topics/specials'
+                />
+                <Card 
+                    ward='Minato'
+                    japanese_name='港区'
+                    population={260486}
+                    aref='https://visit-minato-city.tokyo/en/'
+                />
+                <Card 
+                    ward='Shinjuku'
+                    japanese_name='新宿区'
+                    population={349385}
+                    aref='http://www.foreign.city.shinjuku.lg.jp/en/'
+                />
+                <Card 
+                    ward='Bunkyō'
+                    japanese_name='文京区'
+                    population={240069}
+                    aref='https://en.japantravel.com/guide/bunkyo-city-ward-landmarks-history/66481'
+                />
+                
+                <Card 
+                    ward='Taitō'
+                    japanese_name='台東区'
+                    population={211444}
+                    aref='https://www.city.taito.lg.jp/foreignlanguage/english/index.html'
+                />
+                <Card 
+                    ward='Sumida'
+                    japanese_name='墨田区'
+                    population={272085}
+                    aref='https://www.onetokyo.com/en/experience/'
+                />
+                <Card 
+                    ward='Kōtō'
+                    japanese_name='江東区'
+                    population={524310}
+                    aref='https://translation2.j-server.com/LUCAIKOTO/ns/tl.cgi/https://www.city.koto.lg.jp/foreignlanguage/en/index.html?SLANG=ja&TLANG=en&XMODE=0&XCHARSET=utf-8&XJSID=0'
+                />
+                <Card 
+                    ward='Shinagawa'
+                    japanese_name='品川区'
+                    population={422488}
+                    aref='https://www.city.shinagawa.tokyo.jp.e.ke.hp.transer.com/PC/sangyo/sangyo-kanko/index.html'
+                />
+                <Card 
+                    ward='Meguro'
+                    japanese_name='目黒区'
+                    population={288088}
+                    aref='https://www15.j-server.com/LUCMEGURO/ns/tl.cgi/https%3a//www.city.meguro.tokyo.jp/?SLANG=ja&TLANG=en&XMODE=0&XCHARSET=utf-8&XJSID=0'
+                />
+
+                <Card 
+                    ward='Ōta'
+                    japanese_name='大田区'
+                    population={748081}
+                    aref='https://www15.j-server.com/LUCOTAKU/ns/tl.cgi/https%3a//www.city.ota.tokyo.jp/index.html?SLANG=ja&TLANG=en&XMODE=0&XCHARSET=utf-8&XJSID=0'
+                />
+                <Card 
+                    ward='Setagaya'
+                    japanese_name='世田谷区'
+                    population={943664}
+                    aref='https://honyaku.j-server.com/LUCSETAGAY/ns/tl.cgi/https://www.city.setagaya.lg.jp/index.html?SLANG=ja&TLANG=en&XMODE=0&XCHARSET=utf-8&XJSID=0'
+                />
+                <Card 
+                    ward='Shibuya'
+                    japanese_name='渋谷区'
+                    population={243883}
+                    aref='https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html'
+                />
+                <Card 
+                    ward='Nakano'
+                    japanese_name='中野区'
+                    population={344880}
+                    aref='https://www.city.tokyo-nakano.lg.jp/dept/102500/d014584.html'
+                />
+                <Card 
+                    ward='Suginami'
+                    japanese_name='杉並区'
+                    population={591108}
+                    aref='https://experience-suginami.tokyo/'
+                />
+
+                <Card 
+                    ward='Toshima'
+                    japanese_name='豊島区'
+                    population={301599}
+                    aref='https://en.japantravel.com/guide/tokyo-s-toshima-city-ward/60275'
+                />
+                <Card 
+                    ward='Kita'
+                    japanese_name='北区'
+                    population={355213}
+                    aref='https://en.japantravel.com/tokyo/tokyo-s-kita-city-ward/60230'
+                />
+                <Card 
+                    ward='Arakawa'
+                    japanese_name='荒川区'
+                    population={217475}
+                    aref='https://en.japantravel.com/tokyo/tokyo-s-arakawa-city-ward/60123'
+                />
+                <Card 
+                    ward='Itabashi'
+                    japanese_name='板橋区'
+                    population={584483}
+                    aref='https://en.japantravel.com/tokyo/tokyo-s-itabashi-city-ward/60248'
+                />
+                <Card 
+                    ward='Nerima'
+                    japanese_name='練馬区'
+                    population={752608}
+                    aref='https://www.gotokyo.org/en/destinations/northern-tokyo/nerima/index.html'
+                />
+
+                <Card 
+                    ward='Adachi'
+                    japanese_name='足立区'
+                    population={695043}
+                    aref='https://matcha-jp.com/en/4781'
+                />
+                <Card 
+                    ward='Katsushika'
+                    japanese_name='葛飾区'
+                    population={453093}
+                    aref='https://en.japantravel.com/tokyo/tokyo-s-katsushika-city-ward/60014'
+                />
+                <Card 
+                    ward='Edogawa'
+                    japanese_name='江戸川区'
+                    population={697932}
+                    aref='https://travel.gaijinpot.com/edogawa/'
+                />
+                
+            </ul>
+        </div>
+    );
+}
+
+export default Board;
